@@ -14,6 +14,11 @@
 <div class="container">
     <h1>edit3</h1>
     <hr />
+
+    <%--
+      modelAttribute="data" 의 역할로 Form에서
+     입력한 값이 setter로 들어가고 해당하는 곳으로 data파라미터를 넘겨준다(data)
+    --%>
     <form:form method="post" modelAttribute="data">
         <div class="form-group">
             <label>제목:</label>
