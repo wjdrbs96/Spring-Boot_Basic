@@ -1,10 +1,6 @@
 # Spring boot Basic 
 
-### Spring MVC
+`🌱SpringBoot 기초를 공부합니다`
 
-* Model
-
-* View
-
-* Controller 
+ 
 
