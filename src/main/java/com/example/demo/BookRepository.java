@@ -1,12 +1,5 @@
 package com.example.demo;
 
-import org.springframework.stereotype.Repository;
-import java.awt.print.Book;
+public interface BookRepository {
 
-@Repository
-public class BookRepository {
-
-    public Book save(Book book) {
-        return null;
-    }
 }
