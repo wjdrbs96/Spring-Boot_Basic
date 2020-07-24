@@ -1,4 +1,4 @@
-package com.example.demo.lecture;
+package com.example.demo.Spring_lecture;
 
 public class MyEvent {
 

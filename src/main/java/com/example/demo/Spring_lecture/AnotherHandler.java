@@ -1,4 +1,4 @@
-package com.example.demo.lecture;
+package com.example.demo.Spring_lecture;
 
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
