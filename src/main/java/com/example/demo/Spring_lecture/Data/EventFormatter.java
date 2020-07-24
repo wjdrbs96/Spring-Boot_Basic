@@ -1,5 +1,6 @@
-package com.example.demo.Spring_lecture;
+package com.example.demo.Spring_lecture.Data;
 
+import com.example.demo.Spring_lecture.Sample.Event;
 import org.springframework.format.Formatter;
 import org.springframework.stereotype.Component;
 import java.text.ParseException;

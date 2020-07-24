@@ -1,4 +1,4 @@
-package com.example.demo.Spring_lecture;
+package com.example.demo.Spring_lecture.AOP;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class PerfAspect {
 
-    @Around("execution(* com.example..*.EventService.*(..))")
+    @Around("@annotation(PerLogging)")
     public Object logPerf(ProceedingJoinPoint pjp) throws Throwable {
         long begin = System.currentTimeMillis();
         Object reVal = pjp.proceed();

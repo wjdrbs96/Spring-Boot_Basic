@@ -1,5 +1,6 @@
-package com.example.demo.Spring_lecture;
+package com.example.demo.Spring_lecture.Data;
 
+import com.example.demo.Spring_lecture.Sample.Event;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
